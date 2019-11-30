@@ -80,6 +80,13 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/basalt79/mg-backend-quarkus</url>
+    </repository>
+  </distributionManagement>
   <profiles>
     <profile>
       <id>native</id>
